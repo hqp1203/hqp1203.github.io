@@ -25,7 +25,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="generator" content="Hugo 0.111.3 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="generator" content="Hugo 0.113.0 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="Qinpei Huang">
 <meta name="keywords" content="redis, development, next-gen">
 <meta name="description" content="">
@@ -272,23 +272,36 @@
           
           <div class="post-content markdown">
             <div class="main-content-wrap">
-              <h2 id="redis基本数据结构">Redis基本数据结构</h2>
+              <p><!-- raw HTML omitted --> 单线程多路复用 <!-- raw HTML omitted --></p>
+<h2 id="redis基本数据结构">Redis基本数据结构</h2>
 <p>string
+最大不能超过512M，底层结构类似于vector，双倍扩容缩容。当大于1M每次扩容1M
 list
+底层结构是双向链表
 map
 set
 zset</p>
 <h2 id="redis基本操作">Redis基本操作</h2>
 <p>EX
+setnx key seconds value
+不存在则操作
 NX
-EX
-PX
-设置
-set <!-- raw HTML omitted --> <!-- raw HTML omitted -->
-setnx <!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
-<p>get <!-- raw HTML omitted --></p>
-<p>strlen key</p>
-<p>flushdb</p>
+setex key value
+PX</p>
+<p>设置
+set key value
+mset k1 v1 k2 v2
+自增
+incr
+incrby
+自减
+decr
+decrby</p>
+<p>get key
+mget k1 k2
+strlen key
+append key 123
+flushdb</p>
 <p>flushall</p>
 <p>keys *</p>
               

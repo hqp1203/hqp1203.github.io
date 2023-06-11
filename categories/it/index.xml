@@ -6,7 +6,16 @@
     <description>Recent content in IT on hqp1203のBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 May 2023 11:45:52 +0800</lastBuildDate><atom:link href="https://hqp1203.github.io/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 17:36:53 +0800</lastBuildDate><atom:link href="https://hqp1203.github.io/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL</title>
+      <link>https://hqp1203.github.io/post/mysql/</link>
+      <pubDate>Sun, 11 Jun 2023 17:36:53 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/post/mysql/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>商务智能</title>
       <link>https://hqp1203.github.io/post/%E5%95%86%E5%8A%A1%E6%99%BA%E8%83%BD/</link>
