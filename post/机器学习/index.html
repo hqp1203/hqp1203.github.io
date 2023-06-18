@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
     
     <script type="application/ld+json">
 
@@ -367,6 +365,13 @@ y = w^T x + w_0
 <ol start="9">
 <li>线性模型的改进方法</li>
 </ol>
+<pre tabindex="0"><code>1. 损失函数（Loss Function）：损失函数衡量模型预测结果与真实标签之间的差异。常见的损失函数包括均方误差（Mean Squared Error，MSE）、平均绝对误差（Mean Absolute Error，MAE）和对数损失（Log Loss）等。改进线性模型的一种方法是选择更适合具体问题的损失函数。例如，如果数据存在离群值，可以使用鲁棒的损失函数（如 Huber Loss）来降低离群值的影响。
+2. 正则项是通过对模型的参数进行约束或惩罚，来控制模型的复杂度。常用的正则项包括L1正则化（L1 Regularization）和L2正则化（L2 Regularization）。L1正则化倾向于产生稀疏权重向量，促使模型选择重要的特征，而L2正则化通过对权重向量施加平方惩罚，使得模型的权重更加平滑。通过调整正则化的力度，可以平衡模型的拟合程度和过拟合的风险。
+</code></pre><ol start="10">
+<li>LDA</li>
+</ol>
+<pre tabindex="0"><code>LDA（Linear Discriminant Analysis）是一种经典的降维和分类方法，其思想是通过最大化特定目标来找到最佳的线性投影。LDA的目标是在保持不同类别之间的区分度最大化的同时，最小化同一类别内部的方差。(同类样例的投影点尽可能近，异类样例的投影点尽可能远)
+</code></pre>
               
 
 
